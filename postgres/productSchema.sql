@@ -97,19 +97,3 @@ COPY skus(id, styleId, size, quantity)
 FROM '/home/benjis-brain/hackreactor/senior/sdc/ProductsCSV/skus.csv'
 DELIMITER ','
 CSV HEADER;
--- Transformation
-
--- Products
-----Comes from----
---Product
---features
---related
-
--- Styles
-----Comes from----
---style
---photos
-
--- Skus
-----Comes from----
---skus
